@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         },
         features = {"src/test/java/features"},
         glue = {"steps"},
-        tags = "@FullTesting"
+        tags = "@FullTesting, @CadastrarClientes, @PesquisarClientes"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
